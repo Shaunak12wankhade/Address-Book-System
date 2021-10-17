@@ -19,7 +19,7 @@ namespace Address_Book_System
                     " \n 3 for editing the existing contact \n 4 for deleting contact");
 
 
-
+                AddMultiplePerson obj4 = new AddMultiplePerson();
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
